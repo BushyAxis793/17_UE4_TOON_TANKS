@@ -46,6 +46,7 @@ public:
 	APawnBase();
 
 	void PawnDestroyed();
+	virtual void HandleDestruction();
 	
 protected:
 
@@ -53,6 +54,5 @@ protected:
 
 	void Fire();
 
-	virtual void HandleDestruction();
 
 };
