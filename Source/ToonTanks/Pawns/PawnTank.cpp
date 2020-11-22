@@ -80,6 +80,8 @@ void APawnTank::HandleDestruction()
     SetActorHiddenInGame(true);
     SetActorTickEnabled(false);
 
+    Destroy();
+
 }
 
 bool APawnTank::GetPlayerAlive()
